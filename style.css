@@ -140,7 +140,7 @@ a:hover {
 }
 
 .title-a {
-  text-decoration: none;
+  
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -149,7 +149,7 @@ a:hover {
 }
 
 .subtitle-a {
-  text-decoration: black;
+  
   color: rgb(0, 0, 0);
 }
 
@@ -777,7 +777,7 @@ a:hover {
 # Work Experience
 --------------------------------------------------------------*/
 .work-box {
-  background-color: #fff;
+  background-color: rgb(202, 241, 230);
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -843,7 +843,7 @@ justify-content: center;
     padding: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.7;
+    opacity: 1;
     color: black;
   }
 
