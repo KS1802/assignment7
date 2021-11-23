@@ -832,3 +832,8 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+.flexer{
+  display:flex;
+justify-content: center;
+}
