@@ -1,0 +1,35 @@
+#style.css
+
+
+
+
+    .h1,
+    h2
+    {
+      text-align:center;
+      font-family: monospace;
+      font-size: 60px;
+      color: black;
+    }
+    
+   
+.flexer{
+display:flex;
+justify-content: center;
+}
+      
+    img{
+      max-width: 160px;
+      height: 160px;}
+      .links{
+        width: 300px;
+        border: 15px solid teal;
+        background-color: rgb(0, 212, 212);
+        border-radius: 20px;
+        padding: 50px;
+        margin: 1em;
+      text-align: center;
+      color:black;
+      }
+
+      
