@@ -2,10 +2,7 @@
     "use strict";
 // List of sentences
 var _CONTENT = [ 
-	"Twinkle, twinkle, little star", 
-	"How I wonder what you are", 
-	"Up above the world so high", 
-	"Like a diamond in the sky"
+    "Analytics Enthusiast, MS in Management of Information Technology ,  Electronics Engineer, Data Analyst,Streamer"
 ];
 
 // Current sentence being processed
