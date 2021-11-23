@@ -454,7 +454,7 @@ a:hover {
   max-height: 40px;
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: black;
   padding: 12px 0;
 }
 
