@@ -837,3 +837,13 @@ footer .credits a {
   display:flex;
 justify-content: center;
 }
+.body{
+  background-color:rgb(202, 241, 230);
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    
+  }
