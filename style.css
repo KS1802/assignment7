@@ -448,7 +448,7 @@ a:hover {
   letter-spacing: 1px;
 }
 #header .logo a {
-  color: #fff;
+  color: black;
 }
 #header .logo img {
   max-height: 40px;
