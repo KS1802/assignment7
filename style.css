@@ -12,7 +12,9 @@ h5,
 h6 {
   color: #1e1e1e;
 }
-
+h2.typewriter{
+  color: white;
+}
 a {
   color: #1e1e1e;
   text-decoration: none;
