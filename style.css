@@ -12,18 +12,18 @@
       color: black;
     }
     
-    .container {
+    #container {
       text-align: center;
     }
     
-    .text {
+    #text {
       display: inline-block;
       vertical-align: middle;
       color: orange;
       letter-spacing: 2px;
     }
     
-    .cursor {
+    #cursor {
       display: inline-block;
       vertical-align: middle;
       width: 3px;
