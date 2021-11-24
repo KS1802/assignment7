@@ -109,9 +109,13 @@
 	 * Mobile nav toggle
 	 */
 	on('click', '.mobile-nav-toggle', function(e) {
-	  select('#navbar').classList.toggle('navbar-mobile')
-	  this.classList.toggle('bi-list')
-	  this.classList.toggle('bi-x')
+		var x = document.getElementById("menus");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+		}
+    
 	})
   
 	/**
