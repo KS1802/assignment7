@@ -627,7 +627,7 @@ a:hover {
   padding: 0;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
-  visibility: hidden;
+  visibility: visible;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
