@@ -490,26 +490,16 @@ a:hover {
 /**
 * Mobile Navigation 
 */
-.mobile-nav-toggle {
-  color: black;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
 
-@media (max-width: 991px) {
+@media (min-width: 1366px) {
   .mobile-nav-toggle {
-    display: block;
+    display: flex;
   }
 
-  .navbar ul {
-    display: none;
-  }
+  
 }
 .navbar-mobile {
-  position: fixed;
+ 
   overflow: hidden;
   top: 0;
   right: 0;
@@ -524,18 +514,7 @@ a:hover {
   top: 15px;
   right: 15px;
 }
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: black;
-  overflow-y: auto;
-  transition: 0.3s;
-}
+
 .navbar-mobile > ul > li {
   padding: 0;
 }
@@ -553,26 +532,7 @@ a:hover {
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
- 
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
 
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #0078ff;
-}
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
-}
 
 /*--------------------------------------------------------------
 # Home Section
@@ -693,4 +653,3 @@ justify-content: center;
     color: black;
   }
 
-  
