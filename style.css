@@ -355,6 +355,7 @@ a:hover {
 # Header
 --------------------------------------------------------------*/
 #header {
+  width: 100vw;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -499,7 +500,7 @@ a:hover {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 100vw) {
   .mobile-nav-toggle {
     display: inline-block;
   }
@@ -571,7 +572,11 @@ a:hover {
   width: 100%;
   opacity: 0.9;
 }
-
+@media (min-width: 768px) {
+  .home .home-title {
+    font-size: 4.5rem;
+  }
+}
 
 @media (min-width: 768px) {
   .home .home-subtitle {
