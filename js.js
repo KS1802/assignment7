@@ -32,7 +32,18 @@
 	
 	
   
-
+	/**
+	 * Mobile nav toggle
+	 */
+	on('click', '.mobile-nav-toggle', function(e) {
+		var x = document.getElementById("menus");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+		}
+    
+	})
   
 	/**
 	 * Mobile nav dropdowns activate
