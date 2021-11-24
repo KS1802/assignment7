@@ -490,16 +490,22 @@ a:hover {
 /**
 * Mobile Navigation 
 */
+.mobile-nav-toggle {
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;
+  line-height: 0;
+  transition: 0.5s;
+}
 
-@media (min-width: 1366px) {
+@media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: flex;
+    display: inline-block;
   }
-
-  
 }
 .navbar-mobile {
- 
+  position: fixed;
   overflow: hidden;
   top: 0;
   right: 0;
@@ -514,7 +520,17 @@ a:hover {
   top: 15px;
   right: 15px;
 }
-
+.navbar-mobile ul {
+  display: inline-block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  background-color: black;
+  overflow-y: auto;
+  transition: 0.3s;
+}
 .navbar-mobile > ul > li {
   padding: 0;
 }
@@ -522,13 +538,11 @@ a:hover {
   visibility: visible;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
-  padding: 10px 20px;
   font-size: 15px;
   color: #4e4e4e;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #0078ff;
-}
+
+
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
