@@ -27,36 +27,6 @@
 		}
 	  }
 	}
-  
-
-	
-	
-  
-	/**
-	 * Mobile nav toggle
-	 */
-	on('click', '.mobile-nav-toggle', function(e) {
-		var x = document.getElementById("menus");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-		}
-    
-	})
-  
-	/**
-	 * Mobile nav dropdowns activate
-	 */
-	on('click', '.navbar .dropdown > a', function(e) {
-	  if (select('#navbar').classList.contains('navbar-mobile')) {
-		e.preventDefault()
-		this.nextElementSibling.classList.toggle('dropdown-active')
-	  }
-	}, true)
-  
-
-  
 	
 	/**
 	 * Intro type effect
